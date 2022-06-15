@@ -15,17 +15,3 @@ def erase(cc):
     return res
 
 
-import time
-
-start_time = time.time()
-
-with open('texteSAE.txt') as file:
-    content = " ".join([c for c in file])
-
-
-print("["+erase(content)+"]")
-
-
-
-
-print("%s seconds" % (time.time() - start_time))
